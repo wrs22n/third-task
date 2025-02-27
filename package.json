@@ -1,0 +1,26 @@
+{
+    "name": "third-task",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js",
+        "dev": "node --watch main.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wrs22n/third-task.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/wrs22n/third-task/issues"
+    },
+    "homepage": "https://github.com/wrs22n/third-task#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.21.2",
+        "morgan": "^1.10.0"
+    }
+}
