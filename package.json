@@ -6,7 +6,9 @@
     "scripts": {
         "start": "node main.js",
         "dev": "node --watch main.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build:ui": "rm -rf dist && cd ../second-task && npm run build && cp -r dist ../third-task",
+        "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push"
     },
     "repository": {
         "type": "git",
